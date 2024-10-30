@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+}
+body{
+	background-color:#BFCBDE;
+	margin: 0px;
+}
+#title{
+	text-align:center;
+	font-weight: bold;
+	background-color: rgb(90, 144, 230);
+	border-radius:2px;
+	box-shadow: 2px 2px 4px rgb(15, 52, 113);
+}
+#form_wrapper{
+	background-color: rgb(180, 200, 233);
+	padding-right:3px;
+	padding-left:3px;
+}
+#results{
+	background-color:white;
+}
+#amountField{
+	width: 50%;
+}
+.row{
+	margin-right: -1px;
+	margin-left: -1px;
+	/* margin-bottom: 20px; */
+}
+#loader{
+	padding-top: 0px;
+ 	padding-bottom: 0px;
+	width: 100%;
+	margin-top:-5px;
+	margin-bottom:-10px;
+}
+#loader img{
+	width:245px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin-left: -9px;
+}
+.container{
+	/* width: 1170px; */
+	padding-right: 3px;
+	padding-left: 3px;
+	margin-right: auto;
+	margin-left: auto;
+	/*padding-bottom:490px;*//*Issue:added because we have widget showing problem.*/
+}
+[class*="col-"] {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-color: rgba(86, 61, 124, 0.15);
+    border: 1px solid rgba(86, 61, 124, 0.2);
+}
+.col-md-12 {
+    width: 100%;
+}
+.col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9 {
+    /*float: left;*/
+}
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    position: relative;
+    min-height: 1px;
+    /*padding-right: 15px;*/
+    /*padding-left: 15px;*/
+}
+
+/* input field styles */
+.field1{
+	background: transparent none repeat scroll 0% 0% !important;
+	border-width: 0px 0px 1px !important;
+	border-style: none none dashed !important;
+	border-color: -moz-use-text-color -moz-use-text-color #83A4C5 !important;
+	-moz-border-top-colors: none !important;
+	-moz-border-right-colors: none !important;
+	-moz-border-bottom-colors: none !important;
+	-moz-border-left-colors: none !important;
+	border-image: none !important;
+	width: 275px;/*not effect*/
+	outline: 0px none;/*not effect*/
+	font-style: italic !important;
+}
+.field2{
+font-family: Georgia,"Times New Roman",Times,serif;
+background: #B4C8E9 none repeat scroll 0% 0%;
+border: 0px none;
+border-radius: 4px;
+font-size: 13px;
+outline: 0;
+box-sizing: border-box;
+color: #03122A;
+box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.03) inset;
+}
+
+#in_submit{
+	background-color: #B4C8E9;
+	border-left:#B4C8E9;
+	border-top:#B4C8E9;
+	border-right:3px solid black;
+    border-bottom:3px solid black;
+    width:15px;
+    height:15px;
+    transform: rotate(-45deg);
+    margin-top:1px;
+	margin-left:4px;
+	position:relative;
+	cursor:pointer;
+	outline: 0;
+	font-size: 6px !important;
+}
+/** Some Wordpress  **/
+table#resultTable{
+	table-layout: unset !important;
+	direction: ltr; /*How change it for rtl languages?*/
+}

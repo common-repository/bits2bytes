@@ -1,0 +1,153 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Bits2Bytes\n"
+"POT-Creation-Date: 2016-01-12 10:15+0330\n"
+"PO-Revision-Date: 2015-12-23 23:50+0330\n"
+"Last-Translator: Mostafa <Mostafa@Mostafa>\n"
+"Language-Team: Bits2Bytes <Mostafa@Mostafa>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: bits2bytes.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: bits2bytes.php:60
+msgid "Allow users convert computer data units to each other"
+msgstr ""
+
+#: bits2bytes.php:61
+msgid "Bits2Bytes Widget"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: bits2bytes.php:66
+msgid "Bits2Bytes"
+msgstr ""
+
+#: bits2bytes.php:73
+msgid "Title"
+msgstr ""
+
+#: bits2bytes.php:108 bits2bytes.php:126
+msgid "Convert"
+msgstr ""
+
+#: bits2bytes.php:108
+msgid "Enter numeric value"
+msgstr ""
+
+#: bits2bytes.php:110 bits2bytes.php:134
+msgid "bits"
+msgstr ""
+
+#: bits2bytes.php:111 bits2bytes.php:134
+msgid "bytes"
+msgstr ""
+
+#: bits2bytes.php:112 bits2bytes.php:134
+msgid "kilobits"
+msgstr ""
+
+#: bits2bytes.php:113 bits2bytes.php:134
+msgid "kilobytes"
+msgstr ""
+
+#: bits2bytes.php:114 bits2bytes.php:134
+msgid "megabits"
+msgstr ""
+
+#: bits2bytes.php:115 bits2bytes.php:134
+msgid "megabytes"
+msgstr ""
+
+#: bits2bytes.php:116 bits2bytes.php:134
+msgid "gigabits"
+msgstr ""
+
+#: bits2bytes.php:117 bits2bytes.php:134
+msgid "gigabytes"
+msgstr ""
+
+#: bits2bytes.php:118 bits2bytes.php:134
+msgid "terabits"
+msgstr ""
+
+#: bits2bytes.php:119 bits2bytes.php:134
+msgid "terabytes"
+msgstr ""
+
+#: bits2bytes.php:120 bits2bytes.php:134
+msgid "petabits"
+msgstr ""
+
+#: bits2bytes.php:121 bits2bytes.php:134
+msgid "petabytes"
+msgstr ""
+
+#: bits2bytes.php:128
+msgid "Please wait..."
+msgstr ""
+
+#: bits2bytes.php:160
+msgid "Please enter a numeric value"
+msgstr ""
+
+#: bits2bytes.php:163
+msgid "Bits2Bytes Need Active Internet Connection"
+msgstr ""
+
+#: bits2bytes.php:242
+msgid "An error occured making request...internet issue."
+msgstr ""
+
+#: bits2bytes.php:247
+msgid "Network Connection:301-Moved Permanently."
+msgstr ""
+
+#: bits2bytes.php:252
+msgid "Network Connection:304-Not Modified."
+msgstr ""
+
+#: bits2bytes.php:257
+msgid "Network Connection:404-Not Found."
+msgstr ""
+
+#: bits2bytes.php:262
+msgid "Network Connection:403-Forbidden."
+msgstr ""
+
+#: bits2bytes.php:267
+msgid "Network Connection:401-Unauthorized."
+msgstr ""
+
+#: bits2bytes.php:275
+msgid "Timeout making request"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://wordpress.org/extend/plugins/bits2bytes"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Bits2Bytes is a wordpress simple/yet powerful widget, that allow users "
+"convert <a target='_blank' href='https://en.wikipedia.org/wiki/"
+"Units_of_information'>computer data units</a> to each other."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "MostafaS"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://allcoder.ir/wordpress/plugins"
+msgstr ""
